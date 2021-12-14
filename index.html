@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>APOD - NASA</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class= "div.h1">
+            <h1>Astronomy Picture of the Day</h1>
+        </div>
+
+        <div class="div.imagem">
+            <img src="./kisspng-nasa-insignia-logo-national-advisory-committee-for-5af2da3a3da0f6.1904618615258650182524.png" width="120" height="100px" alt="Logo Nasa">
+        </div>
+    </header>
+
+    <div class="div.principal">
+
+        <div class= "div.paragrafos">
+            <p>A cada dia uma imagem ou fotografia diferente de nosso fascinante universo é apresentada junto com uma breve explicação escrita por um astrônomo profissional.</p>
+            <p>Escolha uma data para conhecer mais sobre o espaço.</p>
+        </div>
+
+        <div class="div.data">
+            <input type="date" id="date">
+
+        </div>
+
+        <div class="divBotao">
+            <button type="submit" id="pesquisar">Buscar</button>
+        </div>
+
+        <div id="divResultado">
+           <p id="texto"></p>
+
+            <p id="autor"></p>
+        
+            <img id='minhaImagem' width="900px" height="700px" src='https://yt3.ggpht.com/ytc/AKedOLQX2Q2WoRCkaduo2hvUMuNWN2tQ2YZO7a_rJOHThA=s900-c-k-c0x00ffffff-no-rj' /></div>
+
+        </div>
+    
+
+    </div>
+
+    <footer>
+        <p class="copyright">&copy; Copyright Astronomy Picture of the Day - 2021</p>
+    </footer>
+
+    <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+    <script src="./index.js"></script> 
+</body>
+
+</html>
