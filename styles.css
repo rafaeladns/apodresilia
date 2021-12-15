@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 * {
-    margin: 0;
-    padding: 0;
+    margin: 2px;
     box-sizing: border-box; 
 }
 
@@ -17,32 +16,104 @@ body{
     height: 100%;
 }
 
+
+
 header {
     display: flex;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 15px;
     text-align: center;
   }
 
+
+    .divPrincipal{
+        width: 100%;
+        height: 100%; 
+    }
+
+  .div.paragrafos{
+      display: flex;
+  }
+
+  p{
+      font-size: 0.78rem;
+      text-align: center;
+      margin: 15px;
+  }
+
+  .divData{
+      display: flex;
+      justify-content: center;
+  }
+  
+  
+
+  .divImagem{
+      display: flex;
+      justify-content: center;
+  }
+
+  img{
+      border-radius: 5px;
+  }
+
 .divBotao{
     display: flex;
     margin:15px;
+    justify-content: center;
 }
 
 button{
     font-family: 'Russo One', sans-serif;
     border: none;
-    width: 75px;
+    width: 100px;
     height: 25px;
     background: #2127ed;
     color: white;
+    border-radius: 2px;
+    border: 1px solid;
 
 }
 
 button:hover{
     cursor: pointer;
     color: #db3737;
+    font-size: 1.0rem;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        font-size: 0.5rem;
+    }
+
+    p{
+        font-size: 0.49rem;
+    }
+
+
+    .divLogo{
+
+        display: none;
+    }
+    .div.imagem{
+    display: flex;
+    margin-left: 30px;
+    }
+
+    #minhaImagem{
+        width: 250px;
+        height: 200px;
+    }
+
+    button{
+        width: 80px;
+    }
 }
 
