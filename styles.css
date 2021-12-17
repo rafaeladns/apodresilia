@@ -55,6 +55,12 @@ header {
       justify-content: center;
   }
 
+  #video{
+    display: none;
+    width: 70%;
+    height: 50vh;
+  }
+
   img{
       border-radius: 5px;
   }
